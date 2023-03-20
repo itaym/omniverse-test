@@ -1,0 +1,44 @@
+.todoForm {
+  background-color: #1d1c1c;
+  color: white;
+  font-size: 24px;
+  height: 186px;
+
+  input[type=submit] {
+    background: linear-gradient(90deg,#00bff9,#015ee9);
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    padding: 1%;
+    transition-duration:0.5s;
+    -moz-transition-duration: 0.5s;
+    &:hover {
+      background: linear-gradient(45deg,#015ee9,#00bff9);
+
+    }
+  }
+  label {
+    padding-bottom: 8px;
+  }
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    min-width: 400px;
+    padding: 20px;
+    text-align: left;
+
+    & input,
+    & textarea {
+      font-size: inherit;
+      resize: none;
+      border: 4px darkgray;
+      border-radius: 8px;
+      padding: 10px;
+    }
+    & textarea {
+      height: 120px;
+    }
+  }
+}

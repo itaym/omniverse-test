@@ -1,0 +1,61 @@
+.errorElement {
+  background-color: darkred;
+  border-radius: 12px;
+  border: 2px solid lightgray;
+  color: white;
+  display: flex;
+  height: 50px;
+  justify-content: space-evenly;
+  line-height: 48px;
+  margin: 6px 0;
+  overflow: hidden;
+  padding: 6px;
+  transition: all 1s  ease-in;
+  width: 100%;
+  .text {
+    flex-grow: 1;
+    margin: 0 6px;
+  }
+  .date {
+    border-left: 1px solid lightgray;
+    color: white;
+    direction: ltr;
+    padding: 0 12px;
+  }
+  .time {
+    border-right: 1px solid lightgray;
+    color: #ffa50082;
+    padding: 0 12px;
+  }
+  .x {
+    border-right: 1px solid lightgray;
+    color: black;
+    cursor: pointer;
+    font-weight: 900;
+    padding: 0 12px;
+  }
+  &.minimize {
+    border: 0 solid lightgray;
+    height: 0;
+    line-height: 6px;
+    margin: 0 0;
+    padding: 0 6px;
+  }
+}
+[dir=ltr] {
+  .errorElement {
+    .date {
+      border-right: 1px solid lightgray;
+      border-left: none;
+      direction: ltr;
+    }
+    .time {
+      border-left: 1px solid lightgray;
+      border-right: none;
+    }
+    .x {
+      border-left: 1px solid lightgray;
+      border-right: none;
+    }
+  }
+}

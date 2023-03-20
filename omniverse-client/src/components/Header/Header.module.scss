@@ -1,0 +1,54 @@
+.header
+{
+  text-align: center;
+  background: #0d152e;
+  border-bottom: 1px solid hsla(0,0%,100%,.1);
+  box-shadow: 0 8px 25px 0 rgb(0 0 0/4%);
+  font-family: Nunito,sans-serif;
+  font-size: 18px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  color: #fff;
+  margin-bottom: 40px;
+
+  ul {
+    text-align: center;
+    font-family: Nunito,sans-serif;
+    font-size: 18px;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5% 18%;
+  }
+  .Menu-navbar {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5% 18%;
+  }
+
+  .MenuLogoPlace {
+    margin-right: 2%;
+    width: 10%;
+  }
+  .MenuListPlace {
+    align-items: flex-end;
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+    width: 100%;
+    color:red;
+  }
+  a {
+    font-family: Nunito,sans-serif;
+    font-size: 18px;
+    list-style-type: none;
+    color: #fff;
+    text-decoration: solid;
+  }
+}

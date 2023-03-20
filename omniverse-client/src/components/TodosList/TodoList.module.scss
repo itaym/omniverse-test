@@ -1,0 +1,30 @@
+.todoList {
+  background-color: #1d1c1c;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  height: fit-content;
+  padding: 20px;
+  width: 600px;
+
+  .x {
+    position: absolute;
+    font-weight: 900;
+    padding: 0 10px;
+  }
+  .listItem {
+    display: relative;
+    background-color: rgb(52, 49, 49);
+    border-radius: 5px;
+    margin: 15px 0;
+    border: 1px outset white;
+    line-height: 56px;
+    cursor: grabbing;
+    transition-duration:0.5s;
+    -moz-transition-duration: 0.5s;
+    &:hover {
+      background-color: #303b75!important;
+    }
+  }
+}
