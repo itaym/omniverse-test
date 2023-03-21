@@ -44,6 +44,7 @@ const TodoForm = () => {
                     name='title'
                     onInput={onTitleInput}
                     value={state.title}
+                    maxLength={40}
                 />
                 <br />
                 <input type={'submit'} value={'Create New'} />
