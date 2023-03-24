@@ -15,8 +15,4 @@ export class Todo {
     @Index()
     @Column({ nullable: true })
     before: number
-
-    @Index()
-    @Column({ nullable: true })
-    order: number
 }
