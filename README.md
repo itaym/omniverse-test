@@ -4,7 +4,7 @@ Make sure you don't have an MySql service.
 It may interfere with the ports of the docker MySql. 
 
 Install Docker on the machine
-Run docker compose up
+From the root of the project run docker compose up
 This will create the db and expose the MySql ports
 
 Move to the omniverse-server folder

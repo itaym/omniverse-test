@@ -8,7 +8,6 @@ const todoSchema = {
     'todo': { properties: {
         'id': { type: 'number' },
         'title': { type: 'string' },
-        'order': { type: 'number' },
         'before': { type: 'number'},
         'after': { type: 'number'},
       } },
